@@ -521,10 +521,25 @@
   .fp-top{
     display:flex;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items:center;
     gap:20px;
     flex-wrap:wrap;
     position:relative; z-index:1;
+  }
+  .fp-link{
+    font-family:var(--mono);
+    font-size:13px;
+    font-weight:600;
+    color:var(--bg);
+    background:var(--gold-soft);
+    padding:9px 16px;
+    border-radius:100px;
+    white-space:nowrap;
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .fp-link:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 26px -10px rgba(232,169,59,0.5);
   }
   .fp-tag{
     font-family:var(--mono);
@@ -807,7 +822,7 @@
         <p><strong>B.Sc. Computer Science</strong> from Govt. College, Hisar. I've taught computer fundamentals in a classroom and I build with Python on my own.</p>
         <p>Right now I'm building <strong>StudyBazaar</strong> — a student marketplace with an automated UPI payment flow and a Supabase backend.</p>
         <div class="stat-row">
-          <div class="stat"><b>3.5 mo</b><span>Teaching experience</span></div>
+          <div class="stat"><b>1 yr </b><span>Teaching experience</span></div>
           <div class="stat"><b>10+</b><span>Features on StudyBazaar</span></div>
         </div>
       </div>
@@ -865,6 +880,7 @@
           <span class="fp-tag">Flagship · Automation Project</span>
           <h3>StudyBazaar</h3>
         </div>
+        <a class="fp-link" href="https://urwashi-123.github.io/studybazaar/" target="_blank" rel="noopener">Visit Live Site ↗</a>
       </div>
       <p class="fp-desc">A student marketplace PWA with automated payment verification, session security, and an AI chatbot — built on Supabase with a Google Apps Script backend.</p>
       <div class="fp-features">
@@ -877,6 +893,26 @@
       </div>
       <div class="fp-stack">
         <span class="chip">Python</span><span class="chip">Supabase</span><span class="chip">Google Apps Script</span><span class="chip">PWA</span><span class="chip">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="featured-project reveal">
+      <div class="fp-top">
+        <div>
+          <span class="fp-tag" style="background:var(--teal);">Live Client Project</span>
+          <h3>Riwaaz Mehndi</h3>
+        </div>
+        <a class="fp-link" href="https://riwaazmehandi.deal-cart.in/" target="_blank" rel="noopener">Visit Live Site ↗</a>
+      </div>
+      <p class="fp-desc">A booking website for a bridal mehndi (henna) artist business in Hisar — built to turn visitors into WhatsApp bookings.</p>
+      <div class="fp-features">
+        <div class="fp-feature"><span class="ico">→</span> Bridal design gallery with pricing for real client work</div>
+        <div class="fp-feature"><span class="ico">→</span> Tiered service &amp; price list — Simple, Party, Bridal Special</div>
+        <div class="fp-feature"><span class="ico">→</span> Client review section and a client photo upload gallery</div>
+        <div class="fp-feature"><span class="ico">→</span> One-tap Call &amp; WhatsApp booking, no forms to fill</div>
+      </div>
+      <div class="fp-stack">
+        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
       </div>
     </div>
 
@@ -906,7 +942,7 @@
         </div>
         <div class="timeline">
           <div class="tl-item reveal">
-            <span class="tl-date">≈ 3.5 months</span>
+            <span class="tl-date">≈ 1 year</span>
             <h4>Computer Teacher</h4>
             <div class="org">Computer Centre, Mangali &amp; Mother International School (CBSE), Siwani</div>
             <ul>
@@ -916,7 +952,7 @@
             </ul>
           </div>
           <div class="tl-item reveal">
-            <span class="tl-date">1 month</span>
+            <span class="tl-date">2 month</span>
             <h4>Loan Department Executive</h4>
             <div class="org">Loan Processing Team</div>
             <ul>
